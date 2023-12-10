@@ -3,10 +3,10 @@ body {
     font-weight: 500;
     color: #212121;
 }
-a {
+.link {
     text-decoration: none;
 }
-ul {
+.list {
     list-style: none;
 }
 
@@ -46,6 +46,10 @@ ul {
     font-weight: 500;
     line-height: 1.1;
     color: #757575;
+}
+.phone:hover,
+.phone:focus {
+    color: #2196F3;
 }
 .upper-section {
     background-color: #2F303A;
@@ -121,11 +125,26 @@ ul {
     color: #212121;
     background-color: #F5F4FA;
 }
-.basic-button {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.6;
+.filtr-buttons:hover, 
+.filtr-buttons:focus {
     color: #FFFFFF;
-    background-color: #2196F3
-    ;
+    background-color: #2196F3;
+}
+.active-button {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.filtr-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.filtr-dscr {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
 }
