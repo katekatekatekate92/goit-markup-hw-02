@@ -1,8 +1,14 @@
-body {
-    font-family: Roboto;
-    font-weight: 500;
-    color: #212121;
+:root {
+    --main-color: #000000;
+    --accent-color: #2196F3;
+    --text-color: #757575;
 }
+body {
+    font-family: 'Roboto' 'Verdana', 'Tahoma', sans-serif;
+    font-weight: 500;
+    color: var(--main-color);
+}
+
 .link {
     text-decoration: none;
 }
@@ -15,41 +21,41 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .header-logo {
-    color: #000000;
+    color: var(--main-color);
 }
 .nav-list {
     font-size: 14px;
     line-height: 1.1;
 }
 .nav-studio {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .nav-portfolio {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .mail {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
-    color: #757575;
+    color: var(--text-color);
 }
 .mail:hover,
 .mail:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .phone {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.1;
-    color: #757575;
+    color: var(--text-color);
 }
 .phone:hover,
 .phone:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .upper-section {
     background-color: #2F303A;
@@ -71,31 +77,31 @@ body {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.1;
-    color: #212121;
+    color: var(--main-color);
 }
 .benefits-text {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.7;
-    color: #757575;
+    color: var(--text-color);
 }
 .section-title {
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
-    color: #212121;
+    color: var(--main-color);
 }
 .team-title {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
-    color: #212121;
+    color: var(--main-color);
 }
 .team-dscrpt {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.2;
-    color: #757575;
+    color: var(--text-color);
 }
 .footer {
     background-color: #2F303A;
@@ -118,11 +124,19 @@ body {
     font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone:hover,
+.footer-phone:focus,
+.footer-adress:hover,
+.footer-adress:focus {
+    color: var(--accent-color);
+}
 .filtr-buttons {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.6;
-    color: #212121;
+    color: var(--main-color);
     background-color: #F5F4FA;
 }
 .filtr-buttons:hover, 
@@ -140,11 +154,11 @@ body {
     font-weight: 700;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--main-color);
 }
 .filtr-dscr {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
