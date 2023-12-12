@@ -4,7 +4,7 @@
     --text-color: #757575;
 }
 body {
-    font-family: 'Roboto' 'Verdana', 'Tahoma', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     color: var(--main-color);
 }
@@ -29,6 +29,11 @@ body {
 .nav-list {
     font-size: 14px;
     line-height: 1.1;
+    color: #212121;
+}
+.nav-list:hover,
+.nav-list:focus {
+    color: var(--accent-color);
 }
 .nav-studio {
     color: var(--accent-color);
@@ -65,6 +70,7 @@ body {
     font-weight: 900;
     line-height: 1.4;
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 .main-btn {
     font-size: 16px;
@@ -90,6 +96,9 @@ body {
     font-weight: 700;
     line-height: 1.2;
     color: var(--main-color);
+}
+.team-bcgr {
+    background-color: #F5F4FA;
 }
 .team-title {
     font-size: 16px;
